@@ -1,0 +1,31 @@
+class List_1{
+// Has 2 members
+private List_1 next_2;
+
+public int length_3( )
+{
+if (EQ(this, null))
+return 0;
+else
+return ADD(1, next_2.length( ));
+}
+
+}
+class IntList_4 extends List_1{
+// Has 3 members
+private int element_5;
+
+public int get_element_6( )
+{
+return this.element;
+}
+
+public int sum_7( )
+{
+if (EQ(this, null))
+return 0;
+else
+return ADD(this.get_element( ), this.next.sum( ));
+}
+
+}

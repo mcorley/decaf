@@ -1,0 +1,28 @@
+class c1_1{
+// Has 3 members
+public static int i_2;
+
+public static void main_3( )
+{
+int i_4;
+i_4 = 5;
+this.println( "i = ", i_4);
+{
+int i_5;
+i_5 = 3;
+this.println( i_5);
+}
+this.println( i_4);
+{
+int i_6;
+i_6 = 6;
+this.println( i_6);
+}
+this.println( i_4);
+}
+
+constructor: public c1_7( )
+{
+}
+
+}
