@@ -1,0 +1,11 @@
+import "stdio"
+
+class A{
+
+  static void main() {
+    int i;
+    i = 3;
+    Out.print("Int field is ");
+    Out.println(i);
+  }
+}

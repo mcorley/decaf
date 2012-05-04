@@ -1,0 +1,26 @@
+class c1 {
+ 
+  static int i;
+ 
+  static void main() {
+        int i;
+        i = 5;
+        println("i = ", i);
+        {
+           int i;
+           i = 3;
+       println(i);
+    }
+        println(i);
+    {
+           int i;
+           i = 6;
+       println(i);
+    }
+    println(i);
+  }
+ 
+        c1() {
+   }
+ 
+}

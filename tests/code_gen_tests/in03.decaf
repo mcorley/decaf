@@ -1,0 +1,16 @@
+import "stdio"
+
+class A{
+  A() {
+  i = 1;
+  }
+
+  int i;
+  static void main() {
+    A a;
+    a = new A();
+    a.i++;
+    Out.print("Int field is ");
+    Out.println(a.i);
+  }
+}

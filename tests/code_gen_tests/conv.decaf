@@ -1,0 +1,14 @@
+import stdio
+
+class Test {
+   public static void main() {
+   	  int i;
+	  float f;
+	  i = 3;
+	  f = 3.1415;
+	  Out.println(i);
+	  Out.println(f);
+	  f = i + f;
+	  Out.println(f);
+   }
+}
